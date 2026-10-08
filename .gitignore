@@ -1,0 +1,64 @@
+# Xcode - User settings
+xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+*.xccheckout
+*.xcscmblueprint
+
+# Xcode - Build
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.app
+
+# Swift Package Manager
+.build/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+.swiftpm/configuration/registries.json
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/readme.md
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.p8
+*.mobileprovision
+*.cer
+*.key
+
+# Local configurations
+Secrets.xcconfig
+Local.xcconfig
+Config.local.xcconfig
+GoogleService-Info.local.plist
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.log
