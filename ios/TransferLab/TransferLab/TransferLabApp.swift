@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct TransferLabApp: App {
+    @State private var coordinator = AppCoordinator()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppRootView(coordinator: coordinator)
         }
     }
 }
